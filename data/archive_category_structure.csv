@@ -1,0 +1,30 @@
+object_id,object_name,object_type,morphism_source,morphism_target,morphism_name,morphism_type,composition_rule,archive_section,year_documented,documenter,notes
+OBJ-001,subject_catalog,access_method,,,,,,capital_archives,925,lorren_dray,Primary access method for topic-based retrieval
+OBJ-002,author_index,access_method,,,,,,capital_archives,925,lorren_dray,Access by contributor name
+OBJ-003,date_registry,access_method,,,,,,capital_archives,925,lorren_dray,Temporal access method
+OBJ-004,location_index,access_method,,,,,,capital_archives,925,lorren_dray,Geographic access method
+OBJ-005,methodology_index,access_method,,,,,,capital_archives,926,lorren_dray,Access by analytical approach
+OBJ-006,citation_index,access_method,,,,,,capital_archives,926,lorren_dray,Access by citation network
+OBJ-007,influence_index,access_method,,,,,,capital_archives,928,lorren_dray,Access by downstream influence
+OBJ-008,problem_index,access_method,,,,,,capital_archives,932,lorren_dray,Access by research questions addressed
+OBJ-009,solution_index,access_method,,,,,,capital_archives,932,lorren_dray,Access by solutions proposed
+OBJ-010,personnel_index,access_method,,,,,,capital_archives,935,lorren_dray,Access by named participants
+OBJ-011,debate_index,access_method,,,,,,capital_archives,938,lorren_dray,Access by controversies
+OBJ-012,application_index,access_method,,,,,,capital_archives,948,lorren_dray,Access by practical applications
+MOR-001,topic_to_author,morphism,subject_catalog,author_index,topic_contributors,natural,given topic find who wrote on it,capital_archives,925,lorren_dray,Composition preserves document identity
+MOR-002,author_to_topic,morphism,author_index,subject_catalog,author_subjects,natural,given author find their topics,capital_archives,925,lorren_dray,Inverse direction
+MOR-003,topic_to_date,morphism,subject_catalog,date_registry,topic_timeline,natural,given topic find when it was studied,capital_archives,925,lorren_dray,Temporal projection
+MOR-004,date_to_topic,morphism,date_registry,subject_catalog,period_topics,natural,given period find active topics,capital_archives,925,lorren_dray,Inverse temporal
+MOR-005,author_to_method,morphism,author_index,methodology_index,author_approaches,natural,given author find their methods,capital_archives,926,lorren_dray,Methodological projection
+MOR-006,method_to_author,morphism,methodology_index,author_index,method_practitioners,natural,given method find practitioners,capital_archives,926,lorren_dray,Inverse methodological
+MOR-007,topic_to_location,morphism,subject_catalog,location_index,topic_geography,natural,given topic find where studied,capital_archives,926,lorren_dray,Geographic projection
+MOR-008,citation_to_influence,morphism,citation_index,influence_index,citation_flow,natural,citations become influence,capital_archives,928,lorren_dray,Longitudinal projection
+MOR-009,problem_to_solution,morphism,problem_index,solution_index,resolution_map,natural,problems to proposed solutions,capital_archives,932,lorren_dray,Problem-solution mapping
+MOR-010,method_to_application,morphism,methodology_index,application_index,method_uses,natural,methods to practical applications,capital_archives,948,lorren_dray,Theory-practice connection
+COMP-001,topic_author_method,composition,subject_catalog,methodology_index,composite_path,composite,"(MOR-001; MOR-005)",capital_archives,928,lorren_dray,Composition of morphisms
+COMP-002,author_topic_date,composition,author_index,date_registry,temporal_trajectory,composite,"(MOR-002; MOR-003)",capital_archives,928,lorren_dray,Author career timeline
+COMP-003,problem_solution_application,composition,problem_index,application_index,research_pipeline,composite,"(MOR-009; MOR-010)",capital_archives,948,lorren_dray,Full research cycle
+ID-001,subject_catalog_id,identity,subject_catalog,subject_catalog,id_subject,identity,trivial,capital_archives,925,lorren_dray,Identity morphism
+ID-002,author_index_id,identity,author_index,author_index,id_author,identity,trivial,capital_archives,925,lorren_dray,Identity morphism
+ID-003,date_registry_id,identity,date_registry,date_registry,id_date,identity,trivial,capital_archives,925,lorren_dray,Identity morphism
+ASSOC-001,triple_composition,associativity,subject_catalog,application_index,long_composite,associative,"((MOR-001; MOR-005); MOR-010) = (MOR-001; (MOR-005; MOR-010))",capital_archives,932,lorren_dray,Associativity verification

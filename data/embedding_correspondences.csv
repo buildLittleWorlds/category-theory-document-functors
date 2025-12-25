@@ -1,0 +1,41 @@
+document_id,document_title,probe_id,probe_name,probe_description,functor_value,embedding_dimension,numerical_value,normalization,year_computed,archive_section,documenter,notes
+DOC-001,Boundary Survey Report SW-6,PRB-001,topic_boundaries,relevance to boundary studies,high,dim_1,0.85,softmax,942,capital_archives,lorren_dray,Strong topic alignment
+DOC-001,Boundary Survey Report SW-6,PRB-002,topic_categories,relevance to category theory,low,dim_2,0.12,softmax,942,capital_archives,lorren_dray,Weak category theory content
+DOC-001,Boundary Survey Report SW-6,PRB-003,topic_expeditions,relevance to expeditions,medium,dim_3,0.45,softmax,942,capital_archives,lorren_dray,Moderate expedition content
+DOC-001,Boundary Survey Report SW-6,PRB-004,topic_creatures,relevance to creature studies,low,dim_4,0.08,softmax,942,capital_archives,lorren_dray,Minimal creature content
+DOC-001,Boundary Survey Report SW-6,PRB-005,author_kell,authored by Kell network,high,dim_5,0.92,softmax,942,capital_archives,lorren_dray,Primary author
+DOC-002,On the Intensity of Passages,PRB-001,topic_boundaries,relevance to boundary studies,low,dim_1,0.15,softmax,942,capital_archives,lorren_dray,Minimal boundary content
+DOC-002,On the Intensity of Passages,PRB-002,topic_categories,relevance to category theory,high,dim_2,0.88,softmax,942,capital_archives,lorren_dray,Core category theory work
+DOC-002,On the Intensity of Passages,PRB-003,topic_expeditions,relevance to expeditions,low,dim_3,0.10,softmax,942,capital_archives,lorren_dray,Not expedition-focused
+DOC-002,On the Intensity of Passages,PRB-004,topic_creatures,relevance to creature studies,medium,dim_4,0.35,softmax,942,capital_archives,lorren_dray,Stakdur crossing examples
+DOC-002,On the Intensity of Passages,PRB-006,author_vance,authored by Vance,high,dim_6,0.95,softmax,942,capital_archives,lorren_dray,Primary author
+DOC-003,Patterns of Passage,PRB-001,topic_boundaries,relevance to boundary studies,low,dim_1,0.18,softmax,942,capital_archives,lorren_dray,Theoretical not empirical
+DOC-003,Patterns of Passage,PRB-002,topic_categories,relevance to category theory,high,dim_2,0.92,softmax,942,capital_archives,lorren_dray,Foundational category work
+DOC-003,Patterns of Passage,PRB-007,author_vold,authored by Vold,high,dim_7,0.98,softmax,942,capital_archives,lorren_dray,Primary author
+DOC-003,Patterns of Passage,PRB-008,influence_score,citation influence,high,dim_8,0.78,softmax,942,capital_archives,lorren_dray,Highly influential work
+DOC-004,Stakdur Crossing Frequencies,PRB-001,topic_boundaries,relevance to boundary studies,medium,dim_1,0.42,softmax,942,capital_archives,lorren_dray,Some boundary content
+DOC-004,Stakdur Crossing Frequencies,PRB-003,topic_expeditions,relevance to expeditions,high,dim_3,0.75,softmax,942,capital_archives,lorren_dray,Field expedition data
+DOC-004,Stakdur Crossing Frequencies,PRB-004,topic_creatures,relevance to creature studies,high,dim_4,0.82,softmax,942,capital_archives,lorren_dray,Creature migration focus
+DOC-004,Stakdur Crossing Frequencies,PRB-009,quantitative_score,numerical data density,high,dim_9,0.88,softmax,942,capital_archives,lorren_dray,Rich quantitative data
+DOC-005,The Monoidal Discipline,PRB-002,topic_categories,relevance to category theory,high,dim_2,0.90,softmax,948,capital_archives,lorren_dray,Advanced category theory
+DOC-005,The Monoidal Discipline,PRB-006,author_vance,authored by Vance,high,dim_6,0.95,softmax,948,capital_archives,lorren_dray,Primary author
+DOC-005,The Monoidal Discipline,PRB-010,abstraction_level,theoretical abstraction,high,dim_10,0.85,softmax,948,capital_archives,lorren_dray,Highly abstract work
+DOC-006,Notes on Classification Failure,PRB-002,topic_categories,relevance to category theory,medium,dim_2,0.55,softmax,948,capital_archives,lorren_dray,Early categorical thinking
+DOC-006,Notes on Classification Failure,PRB-011,topic_archives,relevance to archive science,high,dim_11,0.88,softmax,948,capital_archives,lorren_dray,Archive-focused
+DOC-006,Notes on Classification Failure,PRB-012,author_dray,authored by Dray,high,dim_12,0.95,softmax,948,capital_archives,lorren_dray,Primary author
+DOC-007,Expedition Log IX,PRB-001,topic_boundaries,relevance to boundary studies,medium,dim_1,0.48,softmax,948,capital_archives,lorren_dray,Boundary observations
+DOC-007,Expedition Log IX,PRB-003,topic_expeditions,relevance to expeditions,high,dim_3,0.92,softmax,948,capital_archives,lorren_dray,Core expedition document
+DOC-007,Expedition Log IX,PRB-009,quantitative_score,numerical data density,medium,dim_9,0.55,softmax,948,capital_archives,lorren_dray,Some quantitative data
+DOC-008,On Functorial Preservation,PRB-002,topic_categories,relevance to category theory,high,dim_2,0.88,softmax,952,capital_archives,lorren_dray,Category theory response
+DOC-008,On Functorial Preservation,PRB-011,topic_archives,relevance to archive science,high,dim_11,0.82,softmax,952,capital_archives,lorren_dray,Archive applications
+DOC-008,On Functorial Preservation,PRB-012,author_dray,authored by Dray,high,dim_12,0.95,softmax,952,capital_archives,lorren_dray,Primary author
+DOC-008,On Functorial Preservation,PRB-013,debate_score,controversy level,high,dim_13,0.72,softmax,952,capital_archives,lorren_dray,Response to Keth
+DOC-009,The Representable Perspective,PRB-002,topic_categories,relevance to category theory,high,dim_2,0.95,softmax,952,capital_archives,lorren_dray,Pure category theory
+DOC-009,The Representable Perspective,PRB-010,abstraction_level,theoretical abstraction,high,dim_10,0.90,softmax,952,capital_archives,lorren_dray,Highly abstract
+DOC-009,The Representable Perspective,PRB-012,author_dray,authored by Dray,high,dim_12,0.95,softmax,952,capital_archives,lorren_dray,Primary author
+DOC-009,The Representable Perspective,PRB-008,influence_score,citation influence,high,dim_8,0.82,softmax,952,capital_archives,lorren_dray,Influenced Strand
+DOC-010,Documents as Numerical Functors,PRB-002,topic_categories,relevance to category theory,high,dim_2,0.85,softmax,958,capital_archives,lorren_dray,Category theory applied
+DOC-010,Documents as Numerical Functors,PRB-009,quantitative_score,numerical data density,high,dim_9,0.88,softmax,958,capital_archives,lorren_dray,Numerical methods focus
+DOC-010,Documents as Numerical Functors,PRB-011,topic_archives,relevance to archive science,high,dim_11,0.78,softmax,958,capital_archives,lorren_dray,Archive applications
+DOC-010,Documents as Numerical Functors,PRB-012,author_dray,authored by Dray,high,dim_12,0.95,softmax,958,capital_archives,lorren_dray,Primary author
+DOC-010,Documents as Numerical Functors,PRB-014,practical_score,practical applicability,high,dim_14,0.80,softmax,958,capital_archives,lorren_dray,Applied focus

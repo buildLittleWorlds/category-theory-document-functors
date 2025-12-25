@@ -1,0 +1,304 @@
+[
+  {
+    "type": "personnel_change",
+    "date": "895-07-12",
+    "location": "capital",
+    "actors": ["lorren_dray", "kellen_dray"],
+    "details": {
+      "change": "birth",
+      "notes": "Born in the Capital to Kellen Dray, logician at the Capital Philosophical Society"
+    },
+    "triggers_cascade": false,
+    "notes": "Birth of Lorren Dray. Her father Kellen Dray was known for contesting Vance's weighted passages."
+  },
+  {
+    "type": "personnel_change",
+    "date": "915-03-01",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "change": "appointment",
+      "role": "junior_cataloger",
+      "institution": "capital_archives"
+    },
+    "triggers_cascade": false,
+    "notes": "Dray begins formal training at the Capital Archives at age 20. Exposed to the practical problems of document organization."
+  },
+  {
+    "type": "anomaly_observed",
+    "date": "918-09-22",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "phenomenon": "multiple_classification_problem",
+      "description": "Dray observes that documents cannot be uniquely classified - the same document appears different depending on the method of access",
+      "severity": "moderate"
+    },
+    "triggers_cascade": true,
+    "notes": "Key observation: a document's 'identity' depends on how you probe it. Echo of Vold's Probing Theorem."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "920-04-15",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "Notes on Classification Failure",
+      "archive_id": "DRY-001",
+      "topic": "archive_structure",
+      "pages": 28
+    },
+    "triggers_cascade": true,
+    "notes": "First manuscript documenting the problem of multiple classifications."
+  },
+  {
+    "type": "personnel_change",
+    "date": "922-06-01",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "change": "promotion",
+      "role": "assistant_archivist",
+      "institution": "capital_archives"
+    },
+    "triggers_cascade": false,
+    "notes": "Promoted after demonstrating organizational insight."
+  },
+  {
+    "type": "discovery",
+    "date": "925-02-08",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "discovery": "archive_as_category",
+      "description": "The Archive itself has categorical structure - access methods are objects, document flows are morphisms"
+    },
+    "triggers_cascade": true,
+    "notes": "Key insight: the Archive is a category. This reframes archival science categorically."
+  },
+  {
+    "type": "theory_proposed",
+    "date": "926-10-20",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "theory": "document_functors",
+      "claim": "A document is a functor from the Archive category to Sets - it assigns to each access method a set of observations",
+      "parent_theory": "passage_diagrams"
+    },
+    "triggers_cascade": true,
+    "notes": "Dray proposes that documents are functors. This is the presheaf interpretation of archives."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "928-08-05",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "On the Categorical Structure of Archives",
+      "archive_id": "DRY-002",
+      "topic": "archive_category_theory",
+      "pages": 76
+    },
+    "triggers_cascade": true,
+    "notes": "First major treatise establishing the archive-as-category framework."
+  },
+  {
+    "type": "theory_contested",
+    "date": "930-05-18",
+    "location": "capital",
+    "actors": ["vornis_keth", "lorren_dray"],
+    "details": {
+      "contested_theory": "document_functors",
+      "objection": "Functors require strict preservation of composition - archive access is too chaotic for this",
+      "response_required": true
+    },
+    "triggers_cascade": true,
+    "notes": "Vornis Keth, known for his resonance calculus work, contests the strict functoriality assumption."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "932-11-30",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "On Functorial Preservation in Archives",
+      "archive_id": "DRY-003",
+      "topic": "functor_composition",
+      "pages": 54
+    },
+    "triggers_cascade": true,
+    "notes": "Response to Keth's objection. Demonstrates that archive operations satisfy functoriality conditions."
+  },
+  {
+    "type": "discovery",
+    "date": "935-03-12",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "discovery": "representable_perspective",
+      "description": "Special functors Hom(A, -) represent the viewpoint from a single access method - these determine all other observations"
+    },
+    "triggers_cascade": true,
+    "notes": "Discovery of representable functors in archival context. Prefigures the Yoneda embedding."
+  },
+  {
+    "type": "personnel_change",
+    "date": "936-01-15",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "change": "promotion",
+      "role": "senior_archivist",
+      "institution": "capital_archives"
+    },
+    "triggers_cascade": false,
+    "notes": "Promoted to Senior Archivist in recognition of her theoretical contributions."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "938-06-20",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "The Representable Perspective",
+      "archive_id": "DRY-004",
+      "topic": "representable_functors",
+      "pages": 89
+    },
+    "triggers_cascade": true,
+    "notes": "Major treatise on representable functors. Shows how Hom-functors capture all observation structure."
+  },
+  {
+    "type": "death",
+    "date": "938-12-08",
+    "location": "western_archive",
+    "actors": ["tessery_vold"],
+    "details": {
+      "cause": "natural",
+      "age": 82
+    },
+    "triggers_cascade": true,
+    "notes": "Death of Tessery Vold at age 82. Dray writes memorial noting Vold's influence on her work."
+  },
+  {
+    "type": "debate_published",
+    "date": "940-04-28",
+    "location": "capital",
+    "actors": ["lorren_dray", "merrit_vance"],
+    "details": {
+      "title": "On Weights and Observations",
+      "venue": "Capital Philosophical Society",
+      "topic": "enrichment_vs_presheaves",
+      "outcome": "productive_synthesis"
+    },
+    "triggers_cascade": false,
+    "notes": "Published exchange between Dray and Vance on how their frameworks relate. Dray shows weighted passages are enriched functors."
+  },
+  {
+    "type": "discovery",
+    "date": "942-08-15",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "discovery": "embedding_as_functor_values",
+      "description": "Document embeddings are the numerical values that functors assign - each dimension corresponds to a probe"
+    },
+    "triggers_cascade": true,
+    "notes": "Key insight connecting document functors to embeddings. Each embedding dimension is a functor value."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "945-02-10",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "Documents as Numerical Functors",
+      "archive_id": "DRY-005",
+      "topic": "numerical_embeddings",
+      "pages": 102
+    },
+    "triggers_cascade": true,
+    "notes": "Treatise establishing the connection between functor values and numerical representations."
+  },
+  {
+    "type": "personnel_change",
+    "date": "948-09-01",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "change": "promotion",
+      "role": "director_of_classification",
+      "institution": "capital_archives"
+    },
+    "triggers_cascade": false,
+    "notes": "Appointed Director of Classification at the Capital Archives."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "952-07-18",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "On the Unity of Archive Structure",
+      "archive_id": "DRY-006",
+      "topic": "presheaf_synthesis",
+      "pages": 134
+    },
+    "triggers_cascade": true,
+    "notes": "Dray's synthesis work unifying document functors with weighted passages and classical archival methods."
+  },
+  {
+    "type": "death",
+    "date": "955-11-08",
+    "location": "western_archive",
+    "actors": ["merrit_vance"],
+    "details": {
+      "cause": "natural",
+      "age": 75
+    },
+    "triggers_cascade": true,
+    "notes": "Death of Merrit Vance. Dray delivers eulogy at Western Archive memorial."
+  },
+  {
+    "type": "manuscript_written",
+    "date": "958-04-22",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "title": "The Document Functor Discipline",
+      "archive_id": "DRY-007",
+      "topic": "complete_framework",
+      "pages": 187
+    },
+    "triggers_cascade": true,
+    "notes": "Dray's definitive work. Establishes the complete document functor framework as taught in modern archives."
+  },
+  {
+    "type": "personnel_change",
+    "date": "962-06-30",
+    "location": "capital_archives",
+    "actors": ["lorren_dray"],
+    "details": {
+      "change": "retirement",
+      "role": "director_of_classification",
+      "institution": "capital_archives",
+      "years_of_service": 47
+    },
+    "triggers_cascade": false,
+    "notes": "Dray retires after 47 years at the Capital Archives."
+  },
+  {
+    "type": "death",
+    "date": "968-03-15",
+    "location": "capital",
+    "actors": ["lorren_dray"],
+    "details": {
+      "cause": "natural",
+      "age": 72,
+      "epitaph": "She showed us what documents truly are"
+    },
+    "triggers_cascade": true,
+    "notes": "Death of Lorren Dray at age 72. Buried in the Capital, near her father's grave."
+  }
+]

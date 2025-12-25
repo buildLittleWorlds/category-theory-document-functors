@@ -1,0 +1,32 @@
+document_id,document_title,access_method,observation_type,observation_value,functor_notation,year_recorded,archive_section,recorder,notes
+DOC-001,Boundary Survey Report SW-6,subject_catalog,topic_keywords,"boundaries,surveys,SW-sector","F('Boundaries Survey')",918,capital_archives,lorren_dray,Early example of multiple access views
+DOC-001,Boundary Survey Report SW-6,author_index,contributor_name,torvun_kell,"F('Kell')",918,capital_archives,lorren_dray,Same document different access method
+DOC-001,Boundary Survey Report SW-6,date_registry,temporal_range,847-01-03 to 847-12-31,"F('Year 847')",918,capital_archives,lorren_dray,Temporal access view
+DOC-001,Boundary Survey Report SW-6,location_index,spatial_reference,denstone_sectors.SW,"F('SW Sectors')",918,capital_archives,lorren_dray,Geographic access view
+DOC-002,On the Intensity of Passages,subject_catalog,topic_keywords,"categories,weights,morphisms","F('Category Theory')",925,capital_archives,lorren_dray,Vance manuscript as functor example
+DOC-002,On the Intensity of Passages,author_index,contributor_name,merrit_vance,"F('Vance')",925,capital_archives,lorren_dray,Author access view
+DOC-002,On the Intensity of Passages,methodology_index,analytical_approach,enriched_categories,"F('Enriched')",925,capital_archives,lorren_dray,Methodological access view
+DOC-003,Patterns of Passage,subject_catalog,topic_keywords,"categories,morphisms,diagrams","F('Category Theory')",925,capital_archives,lorren_dray,Vold manuscript demonstrating functoriality
+DOC-003,Patterns of Passage,author_index,contributor_name,tessery_vold,"F('Vold')",925,capital_archives,lorren_dray,Author view returns different observations
+DOC-003,Patterns of Passage,influence_index,cited_by,"weighted_passages,document_functors","F('Influence')",925,capital_archives,lorren_dray,Citation network access
+DOC-004,Stakdur Crossing Frequencies,subject_catalog,topic_keywords,"creatures,territories,migration","F('Stakdur')",926,capital_archives,lorren_dray,Field report as functor
+DOC-004,Stakdur Crossing Frequencies,author_index,contributor_name,field_observer_collective,"F('Observers')",926,capital_archives,lorren_dray,Multiple contributors
+DOC-004,Stakdur Crossing Frequencies,numerical_index,quantitative_data,"frequency_counts,route_lengths","F('Quantitative')",926,capital_archives,lorren_dray,Numerical access yields measurements
+DOC-005,The Monoidal Discipline,subject_catalog,topic_keywords,"monoids,composition,weights","F('Algebra')",928,capital_archives,lorren_dray,Vance theoretical work
+DOC-005,The Monoidal Discipline,citation_index,references,"vold_893,krell_894","F('References')",928,capital_archives,lorren_dray,Citation access view
+DOC-005,The Monoidal Discipline,methodology_index,analytical_approach,abstract_algebra,"F('Methods')",928,capital_archives,lorren_dray,Methodological classification
+DOC-006,Notes on Classification Failure,subject_catalog,topic_keywords,"archives,classification,categories","F('Archive Science')",932,capital_archives,lorren_dray,Dray's own work self-referenced
+DOC-006,Notes on Classification Failure,problem_index,research_questions,multiple_classification,"F('Problems')",932,capital_archives,lorren_dray,Problem-oriented access
+DOC-006,Notes on Classification Failure,solution_index,proposed_methods,functor_interpretation,"F('Solutions')",932,capital_archives,lorren_dray,Solution-oriented access
+DOC-007,Expedition Log IX,subject_catalog,topic_keywords,"expeditions,exploration,dens_border","F('Expeditions')",935,capital_archives,lorren_dray,Field documentation
+DOC-007,Expedition Log IX,date_registry,temporal_range,850-03-15 to 850-09-22,"F('Year 850')",935,capital_archives,lorren_dray,Temporal access
+DOC-007,Expedition Log IX,personnel_index,participants,"expedition_leader,surveyors,guards","F('Personnel')",935,capital_archives,lorren_dray,Personnel access view
+DOC-008,On Functorial Preservation,subject_catalog,topic_keywords,"functors,composition,preservation","F('Functor Theory')",938,capital_archives,lorren_dray,Dray response to Keth
+DOC-008,On Functorial Preservation,debate_index,contested_claims,strict_functoriality,"F('Debates')",938,capital_archives,lorren_dray,Controversy access
+DOC-008,On Functorial Preservation,author_index,contributor_name,lorren_dray,"F('Dray')",938,capital_archives,lorren_dray,Author access
+DOC-009,The Representable Perspective,subject_catalog,topic_keywords,"hom_functors,representability,yoneda","F('Advanced Theory')",942,capital_archives,lorren_dray,Major theoretical work
+DOC-009,The Representable Perspective,methodology_index,analytical_approach,category_theory,"F('Category Theory')",942,capital_archives,lorren_dray,Methodological view
+DOC-009,The Representable Perspective,influence_index,cited_by,strand_probing_lemma,"F('Legacy')",942,capital_archives,lorren_dray,Cited by successor
+DOC-010,Documents as Numerical Functors,subject_catalog,topic_keywords,"embeddings,numerical,functors","F('Embeddings')",948,capital_archives,lorren_dray,Bridge to numerical representations
+DOC-010,Documents as Numerical Functors,methodology_index,analytical_approach,numerical_analysis,"F('Numerical')",948,capital_archives,lorren_dray,Quantitative methodology
+DOC-010,Documents as Numerical Functors,application_index,practical_uses,document_retrieval,"F('Applications')",948,capital_archives,lorren_dray,Applied access view
