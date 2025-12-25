@@ -169,7 +169,7 @@ jupyter notebook
 
 This is **Course 3** in the Category Theory & LLMs series:
 
-1. **Passage Diagrams** (Tessery Vold) — Categories and morphisms
+1. **Relational Foundations** (Tessery Vold) — Categories and morphisms
 2. **Weighted Passages** (Merrit Vance) — Enriched categories and attention
 3. **Document Functors** (Lorren Dray) — Presheaves and document representations ← *You are here*
 4. **Natural Transformations** (Gellen Tross) — Coherent shifts between representations
